@@ -1,4 +1,4 @@
-# uvicorn main:app --host 192.168.0.241 --port 8000 --reload     
+# uvicorn main:app --host 10.33.3.89 --port 8080 --reload     
 # http://127.0.0.1:8000/docs
 from fastapi import FastAPI, Query
 from module import caesar_cipher, riddles
